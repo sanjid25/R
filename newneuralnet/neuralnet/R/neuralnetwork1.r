@@ -223,7 +223,7 @@ generate.initial.variables <-
           #}
           #max(x,0)
           temp = x
-          temp[temp <= 0] = 0 * x[x <= 0]
+          temp[temp <= 0] = 0.1 * x[x <= 0]
           temp
         }
         attr(act.fct, "type") <- "tanh"
@@ -235,7 +235,7 @@ generate.initial.variables <-
           #  1
           temp = x
           temp[temp <= 0] = 0
-          temp[temp > 0] = 1
+          temp[temp > 0] = 0.1
           temp
         }
       }
