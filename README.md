@@ -1,3 +1,11 @@
+# A study of varied orientations of rectified linear activation functions in artificial neural networks
+
+## Summary of work
+
+Artificial neural networks have been a dominant learning algorithm since its inception in the late 1950s. Overtime, it has evolved from being a mere implementation of perceptron learning rule to being an elegant implementation of deep belief networks. This transformation has made neural networks a state of the art technique particularly because of its ability to generate its own simpler version of features alongside the ones that are provided from observations. Consequently, neural networks are now being applied on problems as simple as regression analysis to problems as complex as driving cars using pattern recognition. Much of this progression can be attributed to the inherently simple and flexible implementation principles of neural networks. Historically, this flexibility has been demonstrated through the mere incorporation of an untried approach to neural networks. In light of this philosophy, our research addresses issues including role, gradient and properties of an inherent feature of neural networks, “activation functions” by investigating functions that are not implemented in the literature. Concretely, we have performed our experiments on open source platform (`neuralnet` package of R) and datasets (`Titanic` and MNIST) in order to demonstrate the impact of variations of the popular rectified linear activation function.
+
+## Organisation
+
 - in the `activation_functions` directory there's
 	-	a plot of all the activation functions that were compared	
 	-	an .R code that generated that plot
@@ -6,6 +14,8 @@
 	-	the MNIST dataset
 - in the `outputs` directory, there's:
 	 output of comparisons I had generated in the past
+
+## Implementation
 
 **NOTE:** 
 The `neuralnet` directory is the exact sourcecode of the `neuralnet` package in R with the following exceptions:
